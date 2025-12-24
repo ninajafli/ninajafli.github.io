@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Nino Najafli | OSCP & OSWE Certified Security Engineer</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nino Najafli | OSCP & OSWE Certified Security Engineer" />
+  <meta property="og:description" content="OSCP and OSWE certified cybersecurity professional with experience across application security, penetration testing, security engineering, and SOC operations." />
+  <meta property="og:url" content="https://ninajafli.github.io/" />
+  <meta property="og:site_name" content="Nino Najafli | OSCP & OSWE Certified Security Engineer" />
+  <meta property="article:publisher" content="https://ninajafli.github.io/" />
+  <meta property="og:image" content="https://ninajafli.github.io/assets/img/passport-new.jpg" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ninajafli" />
+  <meta name="twitter:title" content="Nino Najafli | OSCP & OSWE Certified Security Engineer" />
+  <meta name="twitter:description" content="OSCP and OSWE certified cybersecurity professional with experience across application security, penetration testing, security engineering, and SOC operations." />
+  <meta name="twitter:url" content="https://ninajafli.github.io/" />
+  <meta name="author" content="Nino Najafli" />
+  <meta name="description" content="OSCP and OSWE certified cybersecurity professional with experience across application security, penetration testing, security engineering, and SOC operations." />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="assets/img/profile.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Research section" href="#research" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-search small"></i><span>Research</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Certifications section" href="#certifications" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-verified-user small"></i><span>Certifications</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Activities section" href="#activities" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-event small"></i><span>Activities</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-grade small"></i><span>Awards</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!-- <a aria-label="Open Varad's resume in a new tab" href="#resume" target="_blank"
+          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+        <a aria-label="Open Nino's resume in a new tab" href="assets/resume/nnajafli_Resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Nino
+        Najafli</a><span class="black-text">OSCP &amp; OSWE Certified Security Engineer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Research section" href="#research" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-search small"></i><span>Research</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Certifications section" href="#certifications" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-verified-user small"></i><span>Certifications</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Activities section" href="#activities" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-event small"></i><span>Activities</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-grade small"></i><span>Awards</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Nino's Resume in a new tab"
+          href="/assets/resume/nnajafli_Resume.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Nino Najafli.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>OSCP and OSWE certified cybersecurity professional with experience across application security, penetration testing, security engineering, and SOC operations.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/n-najafli/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/ninajafli" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+              <!-- <a href="https://angel.co/u/varad_bhogayata" target="_blank">
+                <button class="icon-btn angellist">
+                  <i class="fa fa-angellist"></i>
+                </button>
+              </a> -->
+
+              <!-- <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+
+                  </span>
+              </a> -->
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+            A Software Developer with a passion for Backend Development and Artificial Intelligence.
+
+          </h2>
+        </blockquote> -->        
+        <p>
+          I am an OSCP & OSWE certified cybersecurity professional with hands-on experience across offensive security,
+          defense operations, and security engineering. I enjoy working on real-world risks in web, mobile, network, and cloud
+          environments and collaborating with teams to improve security posture.
+        </p>
+        <p>
+          <ul>
+            <li><b>Offensive:</b> Web/Mobile/Network Penetration Testing, Secure Code Review, Threat Modeling</li>
+            <li><b>Defensive:</b> SIEM/SOAR workflows, detection engineering, incident response automation</li>
+            <li><b>Engineering:</b> DevSecOps automation, SAST/SCA/DAST tuning, secure release pipelines</li>
+          </ul>
+          
+        </p>
+        <p>
+          I am currently pursuing an M.S. in Information Security at Carnegie Mellon University and actively seeking opportunities in cybersecurity.
+        </p>
+        <!-- <p>
+          Another Paragraph
+        </p>  -->
+        <!-- <p>
+        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
+          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
+          aria-label="Navigate to the Full Stack React homepage"
+          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
+          aria-label='Navigate to the article "Scalable CSS"'
+          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
+        </p> -->
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <img alt="PASHA Bank logo" src="assets/img/work/pasha.png" class="responsive-img center-block" />
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="#experience" class="teal-text hoverline">PASHA Bank OJSC</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Application Security and Penetration Testing Specialist</div>
+            <ul>
+              <li>
+                Conducted penetration testing on over 15 web applications and 4 mobile applications of the bank.
+              </li>
+              <li>
+                Configured SAST tool in the CI/CD pipeline automating static security scans for ~50k lines of code.
+              </li>
+              <li>
+                Evaluated results from SCA, SAST, and DAST tool scans of over 700 repositories to identify and address vulnerabilities.
+              </li>
+              <li>
+                Tuned and optimized SAST tool rules to reduce false positive rate to less than 5%, improving development team accuracy.
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Apr 2023 - Aug 2024 | Baku, Azerbaijan</span>
+          </div>
+        </div>
+
+        
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <img alt="PROSOL logo" src="assets/img/work/prosol.png" class="responsive-img center-block" />
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="#experience" class="teal-text hoverline">PROSOL CJSC</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Junior Cyber Defense Specialist</div>
+            <ul>
+              <li>
+                Performed administration, testing, and integration tasks related to SIEM platforms for five customers.
+              </li>
+              <li>
+                Created correlation and detection rules to reduce false positives by 30%.
+              </li>
+              <li>
+                Automated incident response procedures through SOAR to improve response time by 20%.
+              </li>
+              <li>
+                Developed automated tool to analyze IOCs across multiple Threat Intelligence Platforms and send reports to analysts.
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Jun 2022 - Mar 2023 | Baku, Azerbaijan</span>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <img alt="Ministry of Digital Development logo" src="assets/img/work/ministry.png" class="responsive-img center-block" />
+              </div>
+
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="#experience" class="teal-text hoverline">Data Processing Center of Ministry of Digital Development</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Cyber Security Intern</div>
+            <ul>
+              <li>
+                Built a web-based honeypot to improve network security, capturing 100+ attacks against infrastructure.
+              </li>
+              <li>
+                Deployed and configured SIEM to collect and correlate logs from 100+ endpoints.
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Aug 2021 - Sep 2021 | Baku, Azerbaijan</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Fourth Section: Research -->
+    <section id="research" class="section scrollspy">
+      <h3 class="page-title white-text teal">Research</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <p>
+              <span class="card-title">Research Contributor - PVC: Private Verifiable Credentials with Minimal Adoption Barriers</span>
+            </p>
+            <p class="brown-text">Carnegie Mellon University — Collaboration with Prof. Scheffler</p>
+            <ul>
+              <li>Built a Circom-based zero knowledge circuit for private proof of age, signature verification, and challenge freshness.</li>
+              <li>Gained practical experience in applied cryptography, zk-SNARK design, and privacy-preserving authentication.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Jul 2025 - Nov 2025</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <p>
+              <span class="card-title">Undergraduate Thesis Research - Active Directory Security and Hardening</span>
+            </p>
+            <p class="brown-text">Baku Higher Oil School</p>
+            <ul>
+              <li>Conducted a full security assessment of an enterprise-grade Active Directory environment.</li>
+              <li>Built a controlled AD lab on Hyper-V using AutomatedLab with realistic misconfigurations.</li>
+              <li>Produced a structured hardening framework spanning backups, PAWs, auditing, and protocol hardening.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Apr 2024 - May 2024</span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <p>
+              <span class="card-title">Independent Research - Building an Effective SOC with Open-Source Tools</span>
+            </p>
+            <p class="brown-text">Baku Higher Oil School</p>
+            <ul>
+              <li>Designed and implemented a full SOC using open-source technologies.</li>
+              <li>Performed simulated attacks to improve analyst workflow, detection coverage, and tuning.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Apr 2023 - May 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title teal-text">PoC for CVE-2025-10283 and CVE-2025-10284</span>
+                <ul>
+                  <li>Built controlled PoCs to reproduce vulnerabilities, analyze impact, and test mitigations.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/ninajafli/DotCMS-CVE-2022-45782" target="_blank">View Project</a>
+                <span>Nov 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title teal-text">Evaluating Browser Fingerprinting Defenses</span>
+                <ul>
+                  <li>Assessed major anti-tracking tools using CoverYourTracks and high-entropy fingerprints.</li>
+                  <li>Ran structured experiments in a controlled Ubuntu VM to compare privacy tools.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>Apr 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title teal-text">Evaluating the Security of DNS Protocols</span>
+                <ul>
+                  <li>Built a CORE-based DNS testbed with resolver, root server, attackers, and DoT support.</li>
+                  <li>Developed attack scripts to test confidentiality, integrity, and availability of DNS and DoT.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>Apr 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title teal-text">Cyber Risk Modeling Framework Evaluation</span>
+                <ul>
+                  <li>Assessed Equifax using STRIDE, FAIR, ISO/IEC 27001, NIST CSF, and OCTAVE.</li>
+                  <li>Compared frameworks and recommended the most applicable model.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>Nov 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title teal-text">Facial Expression Recognition Pipeline</span>
+                <ul>
+                  <li>Built a classifier using transfer learning (VGG16/AlexNet) with custom data splits.</li>
+                  <li>Implemented a modular PyTorch pipeline with tunable hyperparameters and checkpointing.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/ninajafli/facial_expression_recognition" target="_blank">View Project</a>
+                <span>May 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title teal-text">CyberLearn: CTF & Cybersecurity Learning Platform</span>
+                <ul>
+                  <li>Designed and developed an interactive CTF platform for beginners in Azerbaijani.</li>
+                  <li>Built challenges covering networking, web security, and cryptography concepts.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/ninajafli/Frontend" target="_blank">View Project</a>
+                <span>Sep 2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sixth Section: Certifications -->
+    <section id="certifications" class="section scrollspy">
+      <h3 class="page-title white-text teal">Certifications</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <a href="https://www.credential.net/676ea6e8-39cc-487b-84f2-46a1880261ac#acc.CcBREDlQ" target="_blank">
+                  <img alt="OSCP certificate" src="assets/img/certifications/oscp.png" />
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">OffSec Certified Professional (OSCP)</span>
+                <p>OffSec</p>
+              </div>
+              <div class="card-action">
+                <a href="https://www.credential.net/676ea6e8-39cc-487b-84f2-46a1880261ac#acc.CcBREDlQ" target="_blank">View Credential</a>
+                <span>Jan 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <a href="https://credentials.offsec.com/b1e30e27-a50f-4e0d-acef-92c86d730f3f#acc.iUxfQDjb" target="_blank">
+                  <img alt="OSWE certificate" src="assets/img/certifications/oswe.png" />
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">OffSec Web Expert (OSWE)</span>
+                <p>OffSec</p>
+              </div>
+              <div class="card-action">
+                <a href="https://credentials.offsec.com/b1e30e27-a50f-4e0d-acef-92c86d730f3f#acc.iUxfQDjb" target="_blank">View Credential</a>
+                <span>Dec 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <a href="https://www.credly.com/badges/f4b5039e-39f1-4144-896c-21b1fd326844" target="_blank">
+                  <img alt="CDP certificate" src="assets/img/certifications/cdp.png" />
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">Certified DevSecOps Professional (CDP)</span>
+                <p>Practical DevSecOps</p>
+              </div>
+              <div class="card-action">
+                <a href="https://www.credly.com/badges/f4b5039e-39f1-4144-896c-21b1fd326844" target="_blank">View Credential</a>
+                <span>Dec 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <a href="https://www.credly.com/badges/f4b5039e-39f1-4144-896c-21b1fd326844" target="_blank">
+                  <img alt="CRTO certificate" src="assets/img/certifications/crto.png" />
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">Certified Red Team Operator (CRTO)</span>
+                <p>Zero-Point Security</p>
+              </div>
+              <div class="card-action">
+                <a href="https://www.credly.com/badges/f4b5039e-39f1-4144-896c-21b1fd326844" target="_blank">View Credential</a>
+                <span>May 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <a href="https://certs.ine.com/fdf71c22-73c0-4b23-8ec3-7bfdf9387ed2#acc.APbKje8v" target="_blank">
+                  <img alt="eCPPTv2 certificate" src="assets/img/certifications/ecppt.png" />
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">eCPPTv2</span>
+                <p>INE Security</p>
+              </div>
+              <div class="card-action">
+                <a href="https://certs.ine.com/fdf71c22-73c0-4b23-8ec3-7bfdf9387ed2#acc.APbKje8v" target="_blank">View Credential</a>
+                <span>Dec 2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Cybersecurity</h4>
+                <ul>
+                  <li>Web/Mobile/Network Penetration Testing, Security Engineering</li>
+                  <li>Secure Code Review, Threat Modeling</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Penetration Testing</h4>
+                <ul>
+                  <li>Burp Suite Professional, Qualys, Invicti, Tenable, Frida, MobSF</li>
+                  <li>PowerShell, Active Directory, Metasploit</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Security Operations (SOC)</h4>
+                <ul>
+                  <li>Cortex XDR, TheHive, Shuffle, Splunk, Security Onion</li>
+                  <li>Wazuh, ELK Stack, DLP, SIEM</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Cloud & Virtualization</h4>
+                <ul>
+                  <li>GCP, AWS, Microsoft Azure, Docker, VMware ESXi</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">CI/CD & DevSecOps</h4>
+                <ul>
+                  <li>Snyk, Semgrep, Coverity, Prisma Cloud, DefectDojo</li>
+                  <li>OWASP ZAP, GitHub Actions, IriusRisk, Docker</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Programming & Scripting</h4>
+                <ul>
+                  <li>Python, JavaScript, SQL, Bash, C, PowerShell</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Algorithms (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Sixth Section: Activities -->
+    <section id="activities" class="section scrollspy">
+      <h3 class="page-title white-text teal">Activities</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">Carnegie Mellon University - INI</span>
+                </p>
+                <p class="brown-text">Pittsburgh, PA, United States</p>
+                <p><b>Teaching Assistant, Introduction to Information Security</b></p>
+                <ul>
+                  <li>Assist professor with classroom instructions, exams, assignments, and mentoring students.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>Aug 2025 - Present</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">DEF CON 33 / Adversary Village</span>
+                </p>
+                <p class="brown-text">Las Vegas, NV, United States</p>
+                <p><b>Volunteer</b></p>
+                <ul>
+                  <li>Assisted with workshops, coordinated attendees, and supported hands-on security sessions.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>Aug 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seventh Section: Awards -->
+    <section id="awards" class="section scrollspy">
+      <h3 class="page-title white-text teal">Awards</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">Distinguished Participation at the Digital Transformation - 2023 Conference</span>
+                </p>
+                <p class="brown-text">Baku, Azerbaijan — Baku Higher Oil School</p>
+                <ul>
+                  <li>Research topic: <a href="https://www.bhos.edu.az/kcfinder/upload/files/Tezisler_2023_17x24sm_Final_Version_.pdf" target="_blank">Building an Effective Security Operation Center with Open-Source Tools</a></li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>Jun 2023</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">Presidential Scholarship Recipient</span>
+                </p>
+                <p class="brown-text">Government of Azerbaijan</p>
+                <ul>
+                  <li>Awarded full scholarship for scoring 680.3/700 on the national university entrance exam.</li>
+                </ul>
+              </div>
+              <div class="card-action">
+                <span>Sep 2019</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eighth Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.cmu.edu/" target="_blank" class="teal-text hoverline">Carnegie Mellon University</a></span>
+                </p>
+                <p class="brown-text">Pittsburgh, PA, United States</p>
+                <p>
+                  <b>Degree: </b>Master of Science in Information Security
+                  <br>
+                  <b>GPA: </b>4.0/4.0
+                </p>
+
+                <ul>
+                  <li><b>Relevant Courseworks:</b> Applied Information Assurance, Introduction to Computer Systems,
+                    Hacking and Offensive Security, Security in Networked Systems, Browser Security, Advanced Real-World
+                    Data Networks, DevSecOps, Cyber Risk Modeling</li>
+                </ul>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="#education" class="teal-text hoverline">Baku Higher Oil School</a></span>
+                </p>
+                <p class="brown-text">Baku, Azerbaijan</p>
+                <p>
+                  <b>Degree: </b>Bachelor's Degree in Information Security
+                  <br>
+                  <b>GPA: </b>96.06/100
+                </p>
+
+                <ul>
+                  <li><b>Relevant Courseworks:</b> Web Programming and Security, Mobile Programming and Security, Ethical
+                    Hacking and Defense, Quality Assurance Management, Network Security, Information Security Strategy and
+                    Policy, Artificial Intelligence and Machine Learning Fundamentals, Attacks on Cryptosystems, Database
+                    Administration and Security, Forensic Science</li>
+                  <li>Taught Red Team classes for younger students in the university's Cyber Club.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Nino" data-position="top" data-tooltip="Call Nino"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Nino" href="tel:+14125897434">+1 (412) 589 7434</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Nino" href="mailto:nnajafli@andrew.cmu.edu" target="_blank" data-position="top"
+            data-tooltip="Email Nino" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Nino" href="mailto:nnajafli@andrew.cmu.edu"
+              class="hoverline">nnajafli@andrew.cmu.edu</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Nino (Gmail)" href="mailto:nnajafli549@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Nino (Gmail)" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Nino (Gmail)" href="mailto:nnajafli549@gmail.com"
+              class="hoverline">nnajafli549@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Nino on GitHub" href="https://github.com/ninajafli" target="_blank"
+            data-position="top" data-tooltip="View Nino on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Nino on GitHub" href="https://github.com/ninajafli" class="hoverline"
+              target="_blank">github.com/ninajafli</a></a>
+        </p>
+        <p>
+          <a aria-label="View Nino on LinkedIn" href="https://www.linkedin.com/in/n-najafli/" target="_blank"
+            data-position="top" data-tooltip="View Nino on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Nino on LinkedIn" href="https://www.linkedin.com/in/n-najafli/"
+              class="hoverline" target="_blank">linkedin.com/in/n-najafli</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["OSCP & OSWE Certified", "Security Engineer", "Penetration Tester"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
