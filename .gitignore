@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Claude / data exports (never commit personal data to a public repo)
+data-*/
+*.zip
+conversations.json
+projects.json
+users.json
+
+# Editor / OS cruft
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
